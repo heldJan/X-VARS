@@ -26,5 +26,5 @@ If you're using X-VARS in your research or applications, please cite our paper:
 
 
 
-![Logo](uliege.png)
-![Logo](kaust.png)
+![Logo](Images/uliege.png)
+![Logo](Images/kaust.png)
