@@ -11,4 +11,4 @@ This repository contains:
 
 The SoccerNet-XFoul dataset consists of 22k video-question-answer pairs annotated by more than 70 experienced referees. 
 
-![My Image](images/dataset_example.png)
+![My Image](Images/dataset_example_.pdf)
