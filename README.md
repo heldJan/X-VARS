@@ -1,10 +1,9 @@
 
 # ⚽️Explainable Video Assistant Referee System⚽️ 
 
-
-| Paper | Demo Clips | Offline Demo | Training | Video Instruction Data | Quantitative Evaluation | Qualitative Analysis |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| [![paper](https://img.shields.io/badge/Paper-<COLOR>.svg)](https://arxiv.org/abs/2306.05424) | [![DemoClip-1](https://img.shields.io/badge/-DemoClip1-blue)](https://youtu.be/R8qW5EJD2-k) [![DemoClip-2](https://img.shields.io/badge/-DemoClip2-yellow)](https://youtu.be/ujCxqxMXLVw)  | [Offline Demo](#running-demo-offline-cd) | [X-VARS](#X-VARS) | [SoccerNet-XFoul](#video-instruction-dataset-open_file_folder) | [Quantitative Evaluation](#quantitative-evaluation-bar_chart) | [Qualitative Analysis](#qualitative-analysis-mag) |
+| Paper | Demo Clips | Dataset | Model | Examples | Offline Demo |
+| :---: | :---: | :---: | :---: | :---: | :---: | 
+| [![paper](https://img.shields.io/badge/Paper-<COLOR>.svg)](https://arxiv.org/abs/2306.05424) | [![DemoClip-1](https://img.shields.io/badge/-DemoClip1-blue)](https://youtu.be/R8qW5EJD2-k) [![DemoClip-2](https://img.shields.io/badge/-DemoClip2-yellow)](https://youtu.be/ujCxqxMXLVw)  | [SoccerNet-XFoul](#SoccerNet-XFoul) | [X-VARS](#X-VARS) | [Examples](#Examples) | [Offline Demo](#offline_demo) | 
 
 This repository contains: 
 - SoccerNet-XFoul, a novel dataset consisting of more than 22k video-question-answer triplets annotated by over 70 experienced football referees. 🚀
