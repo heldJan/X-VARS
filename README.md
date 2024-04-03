@@ -32,6 +32,7 @@ mySNdl.downloadDataTask(task="mvfouls", split=["train","valid","test","challenge
 To obtain the data in 720p, add version = "720p" to the input arguments. If you face issues extracting data from the train_720p.zip folder, the error may come from using the default unzip extractor. Using the app "The Unarchiver" should enable you to unzip it successfully.
 
 The annotations will be available soon! Stay tuned🔥
+
 ![My Image](Images/dataset_example.png)
 
 
