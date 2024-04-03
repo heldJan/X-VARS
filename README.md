@@ -2,6 +2,10 @@
 # ⚽️Explainable Video Assistant Referee System⚽️ 
 
 
+| Paper | Demo Clips | Offline Demo | Training | Video Instruction Data | Quantitative Evaluation | Qualitative Analysis |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| [![paper](https://img.shields.io/badge/Paper-<COLOR>.svg)](https://arxiv.org/abs/2306.05424) | [![DemoClip-1](https://img.shields.io/badge/-DemoClip1-blue)](https://youtu.be/R8qW5EJD2-k) [![DemoClip-2](https://img.shields.io/badge/-DemoClip2-yellow)](https://youtu.be/ujCxqxMXLVw)  | [Offline Demo](#running-demo-offline-cd) | [X-VARS](#X-VARS) | [SoccerNet-XFoul](#video-instruction-dataset-open_file_folder) | [Quantitative Evaluation](#quantitative-evaluation-bar_chart) | [Qualitative Analysis](#qualitative-analysis-mag) |
+
 This repository contains: 
 - SoccerNet-XFoul, a novel dataset consisting of more than 22k video-question-answer triplets annotated by over 70 experienced football referees. 🚀
 - X-VARS, a new vision language model that can perform multiple multi-modal tasks such as visual captioning, question-answering, video action recognition, and can generate explanations of its decisions on-par with human level. 🤖
