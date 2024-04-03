@@ -18,7 +18,20 @@ This repository contains:
 The SoccerNet-XFoul dataset consists of 22k video-question-answer pairs annotated by more than 70 experienced referees. 
 Due to the subjectivity in refereeing, we gathered multiple answers for the same action, rather than collecting a single decision and explanation for each question. In the end, for each action, we have, on average, $1.5$ answers for the same question.
 
-The dataset will be available soon! Stay tuned🔥
+Follow the [link](https://pypi.org/project/SoccerNet/) to easily download the SoccerNet pip package.
+
+If you want to download the video clips, you will need to fill a [NDA](https://docs.google.com/forms/d/e/1FAIpQLSfYFqjZNm4IgwGnyJXDPk2Ko_lZcbVtYX73w5lf6din5nxfmA/viewform) to get the password.
+
+Then use the API to downlaod the data:
+
+```
+from SoccerNet.Downloader import SoccerNetDownloader as SNdl
+mySNdl = SNdl(LocalDirectory="path/to/SoccerNet")
+mySNdl.downloadDataTask(task="mvfouls", split=["train","valid","test","challenge"], password="enter password")
+```
+To obtain the data in 720p, add version = "720p" to the input arguments. If you face issues extracting data from the train_720p.zip folder, the error may come from using the default unzip extractor. Using the app "The Unarchiver" should enable you to unzip it successfully.
+
+The annotations will be available soon! Stay tuned🔥
 ![My Image](Images/dataset_example.png)
 
 
