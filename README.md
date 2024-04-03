@@ -23,8 +23,8 @@ The dataset will be available soon! Stay tuned🔥
 ## Examples
 ![My Image](Images/holding_no_card_main.png)
 ![My Image](Images/tackling_yellow_main.png)
-![My Image](Images/tackling.png)
 ![My Image](Images/dive.png)
+![My Image](Images/tackling.png)
 
 ## Acknowledgements
 
@@ -35,4 +35,14 @@ The dataset will be available soon! Stay tuned🔥
 If you're using X-VARS in your research or applications, please cite our paper: 
 
 
+
+
+## Authors
+
+- [Jan Held](https://www.linkedin.com/in/heldjan/)
+- [Hani Itani](https://www.linkedin.com/in/hani-itani-613b01111/)
+- [Anthony Cioppa](https://www.linkedin.com/in/anthony-cioppa-65a779128/)
+- [Silvio Gincola](https://www.linkedin.com/in/silvio-giancola/)
+- [Bernard Ghanem](https://www.linkedin.com/in/bernardghanem/)
+- [Marc Van Droogenbroeck](https://scholar.google.com/citations?user=IQm8ljgAAAAJ&hl=en)
 
