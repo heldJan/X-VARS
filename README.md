@@ -13,7 +13,7 @@ This repository contains:
 - The code to run an offline demo on your laptop. 💻
 
 
-## SoccerNet-XFoul
+## SoccerNet-XFoul 📂
 
 The SoccerNet-XFoul dataset consists of 22k video-question-answer pairs annotated by more than 70 experienced referees. 
 Due to the subjectivity in refereeing, we gathered multiple answers for the same action, rather than collecting a single decision and explanation for each question. In the end, for each action, we have, on average, $1.5$ answers for the same question.
@@ -22,13 +22,13 @@ The dataset will be available soon! Stay tuned🔥
 ![My Image](Images/dataset_example.png)
 
 
-## X-VARS
+## X-VARS 💡
 
-## Training
+## Training 🏃️
 
-##Offline Demo
+## Offline Demo 💻
 
-## Examples
+## Examples 🏆
 ![My Image](Images/holding_no_card_main.png)
 ![My Image](Images/tackling_yellow_main.png)
 ![My Image](Images/dive.png)
@@ -45,7 +45,7 @@ If you're using X-VARS in your research or applications, please cite our paper:
 
 
 
-## Authors
+## Authors 👨‍💻️
 
 - [Jan Held](https://www.linkedin.com/in/heldjan/)
 - [Hani Itani](https://www.linkedin.com/in/hani-itani-613b01111/)
