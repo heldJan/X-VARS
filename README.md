@@ -1,5 +1,6 @@
 
-# 🚀 Explainable Video Assistant Referee System - X-VARS 🚀
+# 🚀 Explainable Video Assistant Referee System 🚀 
+#                   X-VARS
 
 This repository contains: 
 - SoccerNet-XFoul, a novel dataset consisting of more than 22k video-question-answer triplets annotated by over 70 experienced football referees. 
