@@ -8,9 +8,9 @@
 
 
 This repository contains: 
-- SoccerNet-XFoul, a novel dataset consisting of more than 22k video-question-answer triplets annotated by over 70 experienced football referees. 🚀
-- X-VARS, a new vision language model that can perform multiple multi-modal tasks such as visual captioning, question-answering, video action recognition, and can generate explanations of its decisions on-par with human level. 🤖
-- The code to run an offline demo on your laptop. 💻
+- **SoccerNet-XFoul**, a novel dataset consisting of more than **22k video-question-answer** triplets annotated by over 70 experienced football referees. 🚀
+- **X-VARS**, a new vision language model that can **perform multiple multi-modal tasks** such as visual captioning, question-answering, video action recognition, and can generate explanations of its decisions on-par with human level. 🤖
+- The code to run an **offline demo on your laptop**. 💻
 
 
 ## SoccerNet-XFoul 📂
@@ -23,6 +23,9 @@ The dataset will be available soon! Stay tuned🔥
 
 
 ## X-VARS 💡
+X-VARS is a visual language model based on a **fine-tuned CLIP visual encoder** to extract **spatio-temporal video features** and to obtain **multi-task predictions** regarding the type and severity of fouls. The **linear layer** connects the vision encoder to the language model by projection the video features in the text embedding dimension. We input the **projected spatio-temporal features** alongside **the text predictions** obtained by the two classification heads (for the task of determining the type of foul and the task of determining if it is a foul and the corresponding severity) into the Vicuna-v1.1 model, initialized with weights from LLaVA.
+![My Image](Images/architecture.png)
+
 
 ## Training 🏃️
 
