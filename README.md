@@ -17,6 +17,15 @@ The dataset will be available soon! Stay tuned🔥
 ![My Image](Images/dataset_example.png)
 
 
+## X-VARS
+
+
+## Examples
+
+![My Image](Images/holding_no_card_main.png)
+![My Image](Images/tackling_yellow_main.png)
+![My Image](Images/dive.png)
+
 ## Acknowledgements
 
  - [VARS:](https://github.com/SoccerNet/sn-mvfoul) The first multi-task classification model for predicting if it is a foul or not and the corresponding severity.
