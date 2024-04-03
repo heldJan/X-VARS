@@ -58,5 +58,5 @@ If you're using X-VARS in your research or applications, please cite our paper:
 - [Bernard Ghanem](https://www.linkedin.com/in/bernardghanem/)
 - [Marc Van Droogenbroeck](https://scholar.google.com/citations?user=IQm8ljgAAAAJ&hl=en)
 
-[<img src="Images/uliege.png" width="150" height="80">](https://www.ival-mbzuai.com)
+[<img src="Images/uliege.png" style="margin-right: 20px;" width="150" height="80">](https://www.ival-mbzuai.com)
 [<img src="Images/kaust.png" width="150" height="80">](https://github.com/mbzuai-oryx)
