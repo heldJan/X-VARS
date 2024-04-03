@@ -1,8 +1,6 @@
 import os
-from model import MVNetwork
+from clip_model import CLIPNetwork
 import torch
-from torchvision.io.video import read_video
-from torchvision.models.video import MViT_V2_S_Weights
 import pickle
 import math
 import argparse
@@ -130,7 +128,7 @@ if __name__ == '__main__':
                                                     low_cpu_mem_usage=True).cuda()"""
 
 
-    model = MVNetwork().cuda()
+    model = CLIPNetwork().cuda()
     path_weights = args.path_weights
     load = torch.load(path_weights)
     model.load_state_dict(load['state_dict'])
@@ -180,3 +178,5 @@ if __name__ == '__main__':
         data["Actions"] = actions
         with open("predictions" + split + "_clip.json", "w") as outfile: 
             json.dump(data, outfile)  
+
+        
