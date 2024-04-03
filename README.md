@@ -1,5 +1,5 @@
 
-# 🚀 Explainable Video Assistant Referee System 🚀 
+# 🚀Explainable Video Assistant Referee System🚀 
 #                   X-VARS
 
 This repository contains: 
