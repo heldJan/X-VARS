@@ -4,7 +4,7 @@
 
 | Paper | Demo Clips | Dataset | Model | Training | Offline Demo | Examples |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
-| [![paper](https://img.shields.io/badge/Paper-<COLOR>.svg)](https://arxiv.org/abs/2306.05424) | [![DemoClip-1](https://img.shields.io/badge/-DemoClip1-blue)](https://www.youtube.com/watch?v=IJAkf94lPO8) [![DemoClip-2](https://img.shields.io/badge/-DemoClip2-yellow)](https://www.youtube.com/watch?v=SEdUjrLMBik) [![DemoClip-3](https://img.shields.io/badge/-DemoClip3-green)](https://www.youtube.com/watch?v=Nkk125MvkJ0) [![DemoClip-4](https://img.shields.io/badge/-DemoClip4-yellow)](https://www.youtube.com/watch?v=SEdUjrLMBik) | [SoccerNet-XFoul](#SoccerNet-XFoul) | [X-VARS](#X-VARS) | [Training](#Training) |  [Offline Demo](https://github.com/heldJan/X-VARS/blob/main/X-VARS/demo.md) |  [Examples](#Examples) |
+| [![paper](https://img.shields.io/badge/Paper-<COLOR>.svg)](https://arxiv.org/abs/2306.05424) | [![DemoClip-1](https://img.shields.io/badge/-DemoClip1-blue)](https://www.youtube.com/watch?v=IJAkf94lPO8) [![DemoClip-2](https://img.shields.io/badge/-DemoClip2-yellow)](https://www.youtube.com/watch?v=SEdUjrLMBik) [![DemoClip-3](https://img.shields.io/badge/-DemoClip3-green)](https://www.youtube.com/watch?v=Nkk125MvkJ0) [![DemoClip-4](https://img.shields.io/badge/-DemoClip4-violet)](https://www.youtube.com/watch?v=SEdUjrLMBik) | [SoccerNet-XFoul](#SoccerNet-XFoul) | [X-VARS](#X-VARS) | [Training](#Training) |  [Offline Demo](https://github.com/heldJan/X-VARS/blob/main/X-VARS/demo.md) |  [Examples](#Examples) |
 
 
 This repository contains: 
