@@ -9,4 +9,9 @@ Save the weights in "X-VARS/X-VARS".
 
 ## Download the SoccerNet-XFoul dataset
 
-![#f03c15](Dataset will be available soon!) `#f03c15`
+The annotations will be available soon! Stay tuned🔥
+
+## Train X-VARS
+```
+accelerate launch --config_file "path/to/default_config.yaml" training.py
+```
