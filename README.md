@@ -61,7 +61,7 @@ More information are provided in our [paper](https://arxiv.org/abs/2404.06332).
  - [Video-ChatGPT:](https://github.com/mbzuai-oryx/Video-ChatGPT) A vision and language model used as a foundation model for X-VARS
 
 
-If you're using X-VARS in your research or applications, please cite our paper: 
+If you're using X-VARS in your research or application, please cite our paper: 
 ```bibtex
     @article{Held2024XVARS-arxiv,
         title = {X-{VARS}: Introducing Explainability in Football Refereeing with Multi-Modal Large Language Model},
