@@ -15,6 +15,8 @@ pip install -r requirements.txt
 ## Download the weights
 Download the "base_model_videoChatGPT" and "model_trained_weights" weights of the language model and save them in "X-VARS/X-VARS".
 
+**The weights will be available soon! Stay tuned**🔥
+
 Download the "14_model.pth.tar" weights of the visual encoder and save them in "X-VARS/X-VARS/visual_encoder".
 
 ## Run the demo
