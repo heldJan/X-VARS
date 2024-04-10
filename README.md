@@ -46,7 +46,7 @@ X-VARS is a visual language model based on a **fine-tuned CLIP visual encoder** 
 
 We propose a two-stage training approach. **The first stage** fine-tunes CLIP on a multi-task classification to learn prior knowledge about football and refereeing. **The second stage** consists in fine-tuning the projection layer and several layers of the LLM to enhance the model's generation abilities in the sport-specific domain. 
 
-More information are provided in our [paper](www.google.de).
+More information are provided in our [paper](https://arxiv.org/abs/2404.06332).
 
 
 # Examples
@@ -62,7 +62,23 @@ More information are provided in our [paper](www.google.de).
 
 
 If you're using X-VARS in your research or applications, please cite our paper: 
+```bibtex
+    @article{Held2024XVARS-arxiv,
+        title = {X-{VARS}: Introducing Explainability in Football Refereeing with Multi-Modal Large Language Model},
+        author = {Held, Jan and Itani, Hani and Cioppa, Anthony and Giancola, Silvio and Ghanem, Bernard and Van Droogenbroeck, Marc},
+        journal = arxiv,
+        volume = {abs/2404.06332},
+        year = {2024},
+        publisher = {arXiv},
+        eprint = {2404.06332},
+        keywords = {},
+        eprinttype = {arXiv},
+        doi = {10.48550/arXiv.2404.06332},
+        url = {https://doi.org/10.48550/arXiv.2404.06332}
+}
 
+}
+```
 # Authors 
 
 - [Jan Held](https://www.linkedin.com/in/heldjan/)
