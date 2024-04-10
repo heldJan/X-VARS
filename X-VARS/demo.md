@@ -17,7 +17,12 @@ Download the "base_model_videoChatGPT" and "model_trained_weights" weights of th
 
 Download the "14_model.pth.tar" weights of the visual encoder and save them in "X-VARS/X-VARS/visual_encoder".
 
+## Run the demo
 
-
+```
+python x-vars_demo.py
+```
+Follow the instructions on the screen to open the demo dashboard. 
+Select a video from our dataset and ask questions! 🔥
 
 ![My Image](Images/offline_demo.png)
