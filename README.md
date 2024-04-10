@@ -59,6 +59,8 @@ X-VARS is a visual language model based on a **fine-tuned CLIP visual encoder** 
 
 We propose a two-stage training approach. **The first stage** fine-tunes CLIP on a multi-task classification to learn prior knowledge about football and refereeing. **The second stage** consists in fine-tuning the projection layer and several layers of the LLM to enhance the model's generation abilities in the sport-specific domain. 
 
+To replicate the training, check out [Training](https://github.com/heldJan/X-VARS/blob/main/X-VARS/training.md)
+
 More information are provided in our [paper](https://arxiv.org/abs/2404.06332).
 
 
