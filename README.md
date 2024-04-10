@@ -21,8 +21,8 @@ We recommend setting up a conda environment for the project:
 conda create --name=xvars python=3.10
 conda activate xvars
 
-git clone https://github.com/mbzuai-oryx/Video-ChatGPT.git
-cd Video-ChatGPT
+git clone https://github.com/heldJan/X-VARS.git
+cd X-VARS
 pip install -r requirements.txt
 ```
 
