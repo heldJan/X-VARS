@@ -12,6 +12,10 @@ Save the weights in "X-VARS/X-VARS".
 The annotations will be available soon! Stay tuned🔥
 
 ## Train X-VARS
+To run your code on multiple GPUs, run the following:
+
 ```
 accelerate launch --config_file "path/to/default_config.yaml" training.py
 ```
+
+All information needed to create the "default_congif.yaml" file are provided by [HuggingFace](https://huggingface.co/docs/accelerate/en/package_reference/cli).
