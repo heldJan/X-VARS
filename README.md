@@ -12,6 +12,9 @@ This repository contains:
 - **X-VARS**, a new vision language model that can **perform multiple multi-modal tasks** such as visual captioning, question-answering, video action recognition, and can generate explanations of its decisions on-par with human level. 🤖
 - The code to run an **offline demo on your laptop**. 💻
 
+## 📢 NEWS 📢
+
+The **SoccerNet-XFoul dataset** and the **pretrained weights** will be available soon! 🔥🔥
 
 ## Installation
 
