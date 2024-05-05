@@ -8,8 +8,21 @@ Save the weights in "X-VARS/X-VARS".
 
 ## Download the SoccerNet-XFoul dataset
 
-Download the [annotations](https://drive.google.com/drive/folders/1UbMAQVFrTB-DtEFUSmv8tBXuurrBfMUJ?usp=sharing).
+Follow the [link](https://pypi.org/project/SoccerNet/) to easily download the SoccerNet pip package.
 
+If you want to download the video clips, you will need to fill a [NDA](https://docs.google.com/forms/d/e/1FAIpQLSfYFqjZNm4IgwGnyJXDPk2Ko_lZcbVtYX73w5lf6din5nxfmA/viewform) to get the password.
+
+Then use the API to downlaod the data:
+
+```
+from SoccerNet.Downloader import SoccerNetDownloader as SNdl
+mySNdl = SNdl(LocalDirectory="path/to/SoccerNet")
+mySNdl.downloadDataTask(task="mvfouls", split=["train","valid","test","challenge"], password="enter password")
+```
+To obtain the data in 720p, add version = "720p" to the input arguments. If you face issues extracting data from the train_720p.zip folder, the error may come from using the default unzip extractor. Using the app "The Unarchiver" should enable you to unzip it successfully.
+
+The annotations can be downloaded from [here](https://drive.google.com/drive/folders/1UbMAQVFrTB-DtEFUSmv8tBXuurrBfMUJ?usp=sharing)
+🔥
 ## Extract features
 
 ## Train X-VARS
