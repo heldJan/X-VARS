@@ -37,7 +37,7 @@ from accelerate import Accelerator
 base_model = 'base_model_videoChatGPT'
 
 #Where to save the new model
-new_model = "Train_for_3_epoch_TEST"
+new_model = "weights_X_VARS"
 
 device_index = Accelerator().process_index
 device_map = {"": device_index}
@@ -57,12 +57,12 @@ tokenizer.add_tokens([DEFAULT_VIDEO_PATCH_TOKEN], special_tokens=True)
 tokenizer.add_tokens([DEFAULT_VID_START_TOKEN, DEFAULT_VID_END_TOKEN], special_tokens=True)
 
 # Create the dataset
-json_path_train = "annotations/SoccerNet-XFoul_train.json"
-json_path_valid = "annotations/SoccerNet-XFoul_test.json"
+json_path_train = "annotations/annotations_train.json"
+json_path_valid = "annotations/annotations_test.json"
 json_path_train_predictions = "annotations/CLIP_prediction_train.json"
 json_path_valid_predictions = "annotations/CLIP_prediction_test.json"
 
-dataset_path = "/gpfs/scratch/acad/telim/VARS/dataset"
+dataset_path = "path/to/dataset"
 video_token_len = 300
 test_dataset = VARS_Explain(json_path_valid, json_path_valid_predictions, dataset_path, video_token_len, tokenizer, 'Valid')
 train_dataset = VARS_Explain(json_path_train, json_path_train_predictions, dataset_path, video_token_len, tokenizer, 'Train')
