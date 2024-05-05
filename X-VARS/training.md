@@ -8,7 +8,9 @@ Save the weights in "X-VARS/X-VARS".
 
 ## Download the SoccerNet-XFoul dataset
 
-The annotations will be available soon! Stay tuned🔥
+Download the [annotations](https://drive.google.com/drive/folders/1UbMAQVFrTB-DtEFUSmv8tBXuurrBfMUJ?usp=sharing).
+
+## Extract features
 
 ## Train X-VARS
 To run your code on multiple GPUs, run the following:
