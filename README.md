@@ -14,7 +14,8 @@ This repository contains:
 
 ## 📢 NEWS 📢
 
-The **SoccerNet-XFoul dataset** and the **pretrained weights** will be available soon! 🔥🔥
+The **SoccerNet-XFoul dataset** is now [available]([https://pypi.org/project/SoccerNet/](https://drive.google.com/drive/u/0/folders/1UbMAQVFrTB-DtEFUSmv8tBXuurrBfMUJ))
+! 🔥🔥
 
 ## Installation
 
@@ -47,7 +48,8 @@ mySNdl.downloadDataTask(task="mvfouls", split=["train","valid","test","challenge
 ```
 To obtain the data in 720p, add version = "720p" to the input arguments. If you face issues extracting data from the train_720p.zip folder, the error may come from using the default unzip extractor. Using the app "The Unarchiver" should enable you to unzip it successfully.
 
-The annotations will be available soon! Stay tuned🔥
+The annotations can be donwloaded from [here]([https://pypi.org/project/SoccerNet/](https://drive.google.com/drive/u/0/folders/1UbMAQVFrTB-DtEFUSmv8tBXuurrBfMUJ))
+🔥
 
 ![My Image](Images/dataset_example.png)
 
