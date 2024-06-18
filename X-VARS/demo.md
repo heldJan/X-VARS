@@ -20,7 +20,7 @@ Download the "14_model.pth.tar" weights of the visual encoder and save them in "
 ## Run the demo
 
 ```
-python x-vars_demo.py
+python x_vars_demo.py
 ```
 Follow the instructions on the screen to open the demo dashboard. 
 Select a video from our dataset and ask questions! 🔥
